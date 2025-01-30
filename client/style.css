@@ -1,0 +1,48 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+  background-color: #e0dddd;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+.profile-image {
+    width: 300;
+    height: 300;
+}
+/* Style the navigation menu */
+nav {
+    padding-left: 10px;
+  }
+  
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav li {
+display: inline;
+margin-right: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: #333;
+}
+
+
